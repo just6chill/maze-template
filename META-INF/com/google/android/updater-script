@@ -7,7 +7,7 @@ ui_print("--------------");
 ui_print(" ");
 
 ui_print("----CREDITS----");
-ui_print("@placeholder");
+ui_print("@placeholders");
 ui_print("----------------");
 
 ui_print(" ");
