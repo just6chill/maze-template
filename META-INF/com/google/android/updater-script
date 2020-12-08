@@ -7,11 +7,7 @@ ui_print("--------------");
 ui_print(" ");
 
 ui_print("----CREDITS----");
-ui_print("@Live0verfl0w");
-ui_print("@LeeXDA18");
-ui_print("@ivanmeler");
-ui_print("@HyperAlvi");
-ui_print("@ananjaser1211");
+ui_print("@placeholder");
 ui_print("----------------");
 
 ui_print(" ");
