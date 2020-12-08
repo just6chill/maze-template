@@ -1,0 +1,45 @@
+ui_print("--------------");
+ui_print("---Maze v1----");
+ui_print("---SM-G973F--");
+ui_print("---by Haruto---");
+ui_print("--------------");
+
+ui_print(" ");
+
+ui_print("----CREDITS----");
+ui_print("@Live0verfl0w");
+ui_print("@LeeXDA18");
+ui_print("@ivanmeler");
+ui_print("@HyperAlvi");
+ui_print("@ananjaser1211");
+ui_print("----------------");
+
+ui_print(" ");
+
+ui_print("installation may take up to 10 minutes");
+ui_print("installation is starting...");
+
+ui_print(" ");
+
+ui_print("patching splash screen...");
+
+package_extract_file("splash/up_param.bin", "dev/block/platform/13d60000.ufs/by-name/up_param");
+
+ui_print("done");
+ui_print(" ");
+ui_print("installing kernel...");
+
+package_extract_file("kernel/kernel.img", "dev/block/platform/13d60000.ufs/by-name/boot");
+
+ui_print("done");
+ui_print(" ");
+ui_print("installing os, be patient...");
+
+package_extract_file("os/os.img", "dev/block/platform/13d60000.ufs/by-name/system");
+
+ui_print("done");
+ui_print(" ");
+
+ui_print("installation is finished, all packages");
+ui_print("where successfully installed");
+ui_print("boot to system end enjoy");
